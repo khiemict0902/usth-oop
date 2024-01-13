@@ -1,5 +1,3 @@
-package ex1;
-
 public class Cylinder extends Circle{
     private float h;
 
@@ -7,7 +5,7 @@ public class Cylinder extends Circle{
         super(x,y,r);
         this.h=h;
     }
-    
+
     public double calArea() {
         //float r=super.getR();
         return 2*Math.PI*r*(r+h);

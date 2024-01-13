@@ -1,5 +1,3 @@
-package ex1;
-
 public class Circle extends Point{
     protected float r;
 
@@ -7,7 +5,7 @@ public class Circle extends Point{
         super(x,y);
         this.r=r;
     }
-    
+
     public float getR() {
         return r;
     }
